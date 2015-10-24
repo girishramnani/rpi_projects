@@ -34,9 +34,15 @@ def your_code(window):
          and 1 column.
         """
 
-        window.l00.setText("girish") # use this method to set the label name
+        # just a stupid example
+        all_labels = [window.v00,window.l01,window.v01,window.l10,window.v10,window.l11,window.v11]
+
         time.sleep(1) ## use this method to sleep , beware the argument is in seconds.
-        window.v00.setText(" here i come")
+        window.l00.setText("here i come") # use this method to set the label name
+        for label in all_labels:
+            time.sleep(1)
+            label.setText("next i come")
+
 
 
 
