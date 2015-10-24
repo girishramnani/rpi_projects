@@ -1,3 +1,4 @@
+import Ui
 from PyQt4.QtGui import QApplication
 from PyQt4.QtGui import QDialog
 import threading
@@ -6,7 +7,6 @@ import sys
 __author__ = 'girish'
 
 
-import Ui
 
 
 class MainWindow(QDialog,Ui.Ui_Dialog):
