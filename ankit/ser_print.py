@@ -14,7 +14,7 @@
  commented out the gpi stuff because i dont have raspy now
 
 """
-
+import time
 import sys
 import random
 import string
@@ -35,8 +35,8 @@ def your_code(window):
         """
 
         window.l00.setText("girish") # use this method to set the label name
-
-        
+        time.sleep(1) ## use this method to sleep , beware the argument is in seconds.
+        window.v00.setText(" here i come")
 
 
 

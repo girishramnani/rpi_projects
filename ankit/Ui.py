@@ -58,9 +58,9 @@ class Ui_Dialog(object):
         self.v10 = QtGui.QLabel(Dialog)
         self.v10.setObjectName(_fromUtf8("v10"))
         self.gridLayout.addWidget(self.v10, 1, 1, 1, 1)
-        self.val00 = QtGui.QLabel(Dialog)
-        self.val00.setObjectName(_fromUtf8("val00"))
-        self.gridLayout.addWidget(self.val00, 0, 1, 1, 1)
+        self.v00 = QtGui.QLabel(Dialog)
+        self.v00.setObjectName(_fromUtf8("v00"))
+        self.gridLayout.addWidget(self.v00, 0, 1, 1, 1)
         self.l11 = QtGui.QLabel(Dialog)
         self.l11.setStyleSheet(_fromUtf8("border: 2px solid black;\n"
 "color:blue;"))
@@ -81,7 +81,7 @@ class Ui_Dialog(object):
         self.v01.setText(_translate("Dialog", "TextLabel", None))
         self.l00.setText(_translate("Dialog", "Temperature of the node", None))
         self.v10.setText(_translate("Dialog", "TextLabel", None))
-        self.val00.setText(_translate("Dialog", "TextLabel", None))
+        self.v00.setText(_translate("Dialog", "TextLabel", None))
         self.l11.setText(_translate("Dialog", "Battery of the node", None))
         self.closeButton.setText(_translate("Dialog", "Close", None))
 
