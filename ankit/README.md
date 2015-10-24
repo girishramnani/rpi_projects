@@ -9,3 +9,13 @@ And then using the `pyui4` translate it to a `py` file.
 For now the UI looks like this.
 
 <img src="i.png">
+
+** the motor monitor is  a place Holder**
+
+<br>
+<hr>
+## TODO
+
+<br>
++ Provide a realtime graph to show the changing values.
++ use slots and events instead of a seperate thread. ( using seperate threads is not so Qt style) 
