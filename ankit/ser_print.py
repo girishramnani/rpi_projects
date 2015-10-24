@@ -28,8 +28,15 @@ def generate_random_data():
 def your_code(window):
     " you have the access to the window object inside of this block"
     while True:
-        
 
+        """ there are labels and values in the window, each having variable name as
+         l00,l01 and v00 v01 . here the 00 marks the grid location eg. 01 means 0th row
+         and 1 column.
+        """
+
+        window.l00.setText("girish") # use this method to set the label name
+
+        
 
 
 
@@ -46,10 +53,8 @@ window.show()
 
 application.exec_()
 
-while True:
-    #print 'LED KING'
-    print("Sdf")
 
+    #print 'LED KING'
         #GPIO.output(21,False)
         #for i in range (30000):
         #    print 'low'
